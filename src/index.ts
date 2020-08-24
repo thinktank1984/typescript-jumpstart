@@ -1,8 +1,23 @@
 document.getElementById("app").innerHTML = `
-<h1>Hello Parcel!</h1>
-<div>
-  Look
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>
-  for more info about Parcel.
-</div>
+<li><span class="caret">Beverages</span>
+<ul class="nested">
+  <li>Water</li>
+  <li>Coffee</li>
+  <li><span class="caret">Tea</span>
+    <ul class="nested">
+      <li>Black Tea</li>
+      <li>White Tea</li>
+      <li><span class="caret">Green Tea</span>
+        <ul class="nested">
+          <li>Sencha</li>
+          <li>Gyokuro</li>
+          <li>Matcha</li>
+          <li>Pi Lo Chun</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+</li>
+</ul>
 `;
